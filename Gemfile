@@ -31,6 +31,7 @@ gem 'pg', group: :production
 gem 'carrierwave'
 gem "fog"
 gem "figaro"
+gem "mini_magick"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
