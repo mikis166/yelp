@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 # Use SCSS for stylesheets
@@ -28,7 +28,9 @@ gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'carrierwave'
+gem "fog"
+gem "figaro"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
